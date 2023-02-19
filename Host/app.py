@@ -18,29 +18,29 @@ st.markdown('Given a engineering drawing as an input the task is to extract all 
 original_title = '<p style="font-family:Courier; color:	rgb(221,160,221); font-size: 20px; font-weight:10px ">Given Dataset</p>'
 st.markdown(original_title, unsafe_allow_html=True)
 
-Image=st.image("output_site/input_full.png",width=500,use_column_width=True)
+Image=st.image("input_full.png",width=500,use_column_width=True)
 
 
 obj='<p style="font-family:Courier; color:rgb(221,160,221); font-size: 20px; font-weight:10px ">Object_Detection Output</p>'
 # st.markdown('**Object_Detection Output**')
 st.markdown(obj, unsafe_allow_html=True)
-obj_img=st.image("output_site/obj.jpg",width=500,use_column_width=True)
+obj_img=st.image("obj.jpg",width=500,use_column_width=True)
 
 
 circle='<p style="font-family:Courier; color:rgb(221,160,221); font-size: 20px; font-weight:10px ">Circle_Detection Output</p>'
 st.markdown(circle, unsafe_allow_html=True)
-cir_img=st.image("output_site/cir.jpg",width=500,use_column_width=True)
+cir_img=st.image("cir.jpg",width=500,use_column_width=True)
 
 
 
 line='<p style="font-family:Courier; color:rgb(221,160,221); font-size: 20px; font-weight:10px ">Line_Detection Output</p>'
 st.markdown(line, unsafe_allow_html=True)
 
-line_img=st.image("output_site/line.jpg",width=500,use_column_width=True)
+line_img=st.image("line.jpg",width=500,use_column_width=True)
 
 text='<p style="font-family:Courier; color:rgb(221,160,221); font-size: 20px; font-weight:10px ">Text_Detection Output</p>'
 st.markdown(text, unsafe_allow_html=True)
-tet_img=st.image("output_site/text.jpg",width=500,use_column_width=True)
+tet_img=st.image("text.jpg",width=500,use_column_width=True)
 
 
 
@@ -52,7 +52,7 @@ df=pd.read_csv('common.csv')
 st.write(df)
 
 st.header('After converting coordinated from CSV to SVG format')
-Output=st.image("output_site/svg output.jpg",width=500,use_column_width=True)
+Output=st.image("svg output.jpg",width=500,use_column_width=True)
 
 
 st.markdown('**SVG Output comparison with dataset image**')
@@ -60,7 +60,7 @@ st.markdown('**SVG Output comparison with dataset image**')
 
 out='<p style="font-family:Courier; color:rgb(221,160,0); font-size: 25px; font-weight:10px ">SVG Output</p>'
 st.markdown(out, unsafe_allow_html=True)
-Output=st.image("output_site/svg op imposed.jpg",width=500,use_column_width=True)
+Output=st.image("svg op imposed.jpg",width=500,use_column_width=True)
 
 
 
@@ -68,8 +68,8 @@ st.markdown('**RUNNER UP @HACKATHON Conducted by VIT Chennai**')
 
 # two images in grid
 col1, col2 = st.columns(2)
-col1.image("output_site/pic.jpg",width=500,use_column_width=True)
-col2.image("output_site/cirf.jpg",width=500,use_column_width=True)
+col1.image("pic.jpg",width=500,use_column_width=True)
+col2.image("cirf.jpg",width=500,use_column_width=True)
 
 # leave a line space 
 st.write("")
