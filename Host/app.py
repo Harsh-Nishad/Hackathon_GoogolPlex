@@ -1,8 +1,9 @@
 import streamlit as st
 import pandas as pd
-import numpy as np
-import cv2
 from PIL import Image
+
+# version of PIL
+
 
 
 #title
